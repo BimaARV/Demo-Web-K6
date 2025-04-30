@@ -1,0 +1,22 @@
+{
+  "name": "demo-web-k6-test",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "k6 run load-test.js"
+  },
+  "keywords": [],
+  "author": "Dewangga Bima",
+  "license": "MIT",
+  "description": "IT Solutions Website with NodeJS",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "k6": "^0.0.0",
+    "nodemon": "^3.1.10"
+  }
+}
